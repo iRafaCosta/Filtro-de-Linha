@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+p{
+    font-size: .75rem;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+header{
+    height: 6.5rem;
+    background: #292929;
+    color: #ff4655;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+body{
+    background: linear-gradient(to left,#0f1923, #ff4655);
+}
+
+#cardList{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 2rem;
+}
+
+.card{
+    width: 450px;
+    background: transparent;
+    border: 7px solid #262626;
+    margin-bottom: 20px;
+    padding: 18px;
+    position: relative;
+    border-radius: 1.75rem;
+}
+
+.agenteImg {
+    height: 350px;
+    width: auto;
+    margin-left: 75px;
+    position: relative;
+}
+.agenteImgiso{
+    height: 350px;
+    width: auto;
+    margin-left: 35px;
+    position: relative;
+}
+
+.brandContry{
+    height: 40px;
+    width: auto;
+    position: absolute;
+    right: 10px;
+}
+
+.funcao{
+    font-size: 1.5rem;
+}
+
+.description{
+    font-size: 1.25rem;
+}
+
+.contry{
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.cardTitle{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+footer{
+    height: 6rem;
+    background: #262626;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    color: #fff;
+}
+
+select{
+    padding: 5px;
+}
+
+button{
+    padding: 5px;
+}
+
+.tags{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tag{
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    cursor: pointer;
+    color: #1e1e31;
+}
+
+.hidden {
+    display: none;
+}
+
+.card .selected {
+    border-color: green;
+}
